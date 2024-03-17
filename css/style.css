@@ -515,9 +515,13 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
-.input-name:hover > .svg-name,
-.input-name:focus > .svg-name{
+.svg-name:hover,
+.svg-name:focus{
     fill: #4D5AE5;
 }
+    
+
+
 .close-icon {}
